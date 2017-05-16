@@ -1,0 +1,1 @@
+SELECT count(*) from posts where post_date >= CURRENT_DATE - INTERVAL 1 DAY;
